@@ -1,0 +1,71 @@
+# ────────────────
+# SYSTEM FILES
+# ────────────────
+.DS_Store
+Thumbs.db
+
+# ────────────────
+# PYTHON
+# ────────────────
+__pycache__/
+*.py[cod]
+*.so
+
+# ────────────────
+# VIRTUAL ENVIRONMENTS
+# ────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ────────────────
+# LOCAL SETTINGS / SECRETS
+# ────────────────
+*.env
+.env.*
+config.ini
+settings_local.py
+
+# ────────────────
+# DATABASES
+# ────────────────
+db.sqlite3
+db.sqlite3-journal
+
+# ────────────────
+# DJANGO STATIC & MEDIA
+# ────────────────
+/staticfiles/
+/media/
+
+# Collected static files
+staticfiles/
+static/
+
+# ────────────────
+# LOGS / CACHE
+# ────────────────
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.mo
+*.pid
+
+# ────────────────
+# EDITORS / IDE (PyCharm + VSCode)
+# ────────────────
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ────────────────
+# OTHERS
+# ────────────────
+pip-log.txt
+pip-delete-this-directory.txt
