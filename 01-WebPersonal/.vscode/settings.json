@@ -1,0 +1,20 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.diagnosticMode": "openFilesOnly",
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "error",
+    "reportUndefinedVariable": "error",
+    "reportSyntaxError": "error"
+  },
+  "pylint.args": [
+    "--disable=missing-module-docstring",
+    "--disable=missing-class-docstring",
+    "--disable=missing-function-docstring",
+    "--disable=unused-import",
+    "--disable=unnecessary-semicolon",
+    "--disable=trailing-whitespace",
+    "--disable=line-too-long"
+  ]
+}
